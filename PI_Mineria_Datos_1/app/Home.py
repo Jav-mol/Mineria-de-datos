@@ -21,7 +21,6 @@ with col1:
 
     st.markdown("### 📋 Información del curso")
     st.markdown("- **Materia:** Minería de Datos I — Mañana")
-    st.markdown("- **Módulo:** 3 — Modelar y Comunicar")
     st.markdown("- **Fecha de entrega:** 4 de julio de 2026")
 
 with col2:
