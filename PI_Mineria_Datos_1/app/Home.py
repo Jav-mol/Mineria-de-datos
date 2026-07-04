@@ -28,7 +28,7 @@ with col2:
     st.markdown("### 🔗 Enlaces")
     st.markdown("**Repositorio GitHub:**")
     st.markdown("[github.com/Jav-mol/Mineria-de-datos](https://github.com/Jav-mol/Mineria-de-datos)")
-    st.markdown("**App Streamlit Cloud:** [Enlace público]()")
+    st.markdown("**App Streamlit Cloud:** [mineria-de-datos.streamlit.app](https://mineria-de-datos.streamlit.app/)")
 
 st.markdown("---")
 

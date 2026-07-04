@@ -56,7 +56,7 @@ Se aplicó PCA con StandardScaler sobre 9 variables (age, bmi, children, charges
 
 ## Visualización interactiva
 
-La aplicación Streamlit presenta 5 páginas: Home (contexto y enlaces), Dataset (vista previa y calidad), EDA (5 visualizaciones con interpretación), PCA (varianza explicada y loadings) y Conclusiones (hallazgos, limitaciones y próximos pasos). Disponible en: [enlace a Streamlit Cloud].
+La aplicación Streamlit presenta 5 páginas: Home (contexto y enlaces), Dataset (vista previa y calidad), EDA (5 visualizaciones con interpretación), PCA (varianza explicada y loadings) y Conclusiones (hallazgos, limitaciones y próximos pasos). Disponible en: https://mineria-de-datos.streamlit.app/.
 
 ## Cómo ejecutar localmente
 
