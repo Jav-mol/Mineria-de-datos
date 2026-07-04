@@ -12,7 +12,8 @@ import os
 st.set_page_config(page_title="EDA", page_icon="📈", layout="wide")
 st.title("📈 Análisis Exploratorio de Datos (EDA)")
 
-PROCESSED = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "processed", "reporte_clinica_analisis.csv")
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+PROCESSED = os.path.join(BASE_DIR, "data", "processed", "reporte_clinica_analisis.csv")
 
 @st.cache_data
 def load():

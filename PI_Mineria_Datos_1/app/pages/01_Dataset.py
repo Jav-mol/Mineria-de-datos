@@ -10,8 +10,9 @@ st.set_page_config(page_title="Dataset", page_icon="📋", layout="wide")
 st.title("📋 Dataset")
 
 # ── Cargar datos ──
-PROCESSED = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "processed", "reporte_clinica_analisis.csv")
-RAW = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "raw", "reporte_clinica_original.csv")
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+PROCESSED = os.path.join(BASE_DIR, "data", "processed", "reporte_clinica_analisis.csv")
+RAW = os.path.join(BASE_DIR, "data", "raw", "reporte_clinica_original.csv")
 
 @st.cache_data
 def load_data():
