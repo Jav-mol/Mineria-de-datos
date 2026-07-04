@@ -1,0 +1,55 @@
+# ── Entornos virtuales ──
+env/
+venv/
+.venv/
+env.bak/
+venv.bak/
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.Python
+
+# ── Jupyter ──
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.vscode/
+
+# ── Datos sensibles ──
+*.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+credentials/
+secrets/
+
+# ── Sistema ──
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# ── IDE / Editores ──
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# ── Streamlit ──
+.streamlit/secrets.toml
+
+# ── Archivos grandes ──
+*.zip
+*.tar.gz
+*.rar
