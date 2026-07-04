@@ -84,5 +84,4 @@ col1, col2, col3 = st.columns(3)
 for i, (col_name, c) in enumerate(zip(cat_cols, [col1, col2, col3])):
     with c:
         st.markdown(f"**{col_name}**")
-        st.dataframe(df[col_name].value_counts().reset_index().rename(
-            columns={'index': col_name, col_name: 'count'}), hide_index=True)
+        st.dataframe(df[col_name].value_counts().reset_index(), hide_index=True)
