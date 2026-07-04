@@ -16,13 +16,13 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.markdown("### 👥 Integrantes")
-    st.markdown("- **[Nombre Apellido]**")
-    st.markdown("- **[Nombre Apellido]**")
+    st.markdown("- **Javier Molina**")
+    st.markdown("- **Federico Claramunt**")
 
     st.markdown("### 📋 Información del curso")
     st.markdown("- **Materia:** Minería de Datos I — Mañana")
     st.markdown("- **Módulo:** 3 — Modelar y Comunicar")
-    st.markdown("- **Fecha de entrega:** [DD/MM/AAAA]")
+    st.markdown("- **Fecha de entrega:** 4 de julio de 2026")
 
 with col2:
     st.markdown("### 🔗 Enlaces")
